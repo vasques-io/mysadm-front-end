@@ -1,0 +1,26 @@
+.app-container {
+    padding-top: 64px;
+    height: 100vh;
+}
+  
+.sidenav {
+    background-color: #3C4962;
+    color: white;
+    margin-top: 64px;
+    width: 256px;
+    padding: 16px;
+    border-radius: 0px;
+}
+
+.content{
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.drawer-content{
+    display: rela;
+}
+
+.sidenav-content {
+}
+  

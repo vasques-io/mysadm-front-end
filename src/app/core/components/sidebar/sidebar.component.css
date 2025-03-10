@@ -1,0 +1,26 @@
+.menu-category{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #cdd2db;
+}
+
+.submenu-item{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.submenu-item-icon{
+    color: #E5E8EC;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.submenu-item-name{
+    color: #E5E8EC;
+    font-size: 0.8rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}

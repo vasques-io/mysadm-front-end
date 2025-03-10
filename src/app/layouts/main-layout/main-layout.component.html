@@ -1,0 +1,17 @@
+<app-header (menuToggled)="alternarMenu()"></app-header>
+
+<mat-drawer-container class="app-container">
+    <!-- Menu lateral -->
+    <mat-drawer #sidenav class="sidenav" mode="side" [opened]="menuAberto">
+        <div class="sidenav-content">
+            <app-sidebar></app-sidebar>
+        </div>
+    </mat-drawer>
+
+    <!-- Conteúdo principal -->
+    <mat-drawer-content>
+        <main class="content">
+            <router-outlet></router-outlet>
+        </main>
+    </mat-drawer-content>
+</mat-drawer-container>
