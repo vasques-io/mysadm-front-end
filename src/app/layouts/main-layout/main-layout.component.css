@@ -8,7 +8,7 @@
     color: white;
     margin-top: 64px;
     width: 256px;
-    padding: 16px;
+    padding: 16px 0 16px 16px;
     border-radius: 0px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .drawer-content{
-    display: rela;
+
 }
 
 .sidenav-content {
